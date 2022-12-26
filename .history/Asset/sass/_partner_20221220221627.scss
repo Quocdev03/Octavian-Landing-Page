@@ -1,0 +1,44 @@
+.partner {
+    margin-bottom: 150px;
+    transition: all 0.2s linear;
+
+    &-main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 90px 0;
+        transition: all 0.2s linear;
+    }
+
+    &-item {
+        padding: 0 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: opacity 0.2s ease-in-out;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+    @include maxw(1023px) {
+        margin-bottom: 100px;
+        transition: all 0.2s linear;
+
+        &-item {
+            padding: 0 20px;
+            transition: all 0.2s linear;
+        }
+    }
+
+    @include maxw(767px) {
+        margin-bottom: 50px;
+
+        &-main {
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 25px 15px;
+            transition: all 0.2s linear;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.partner {
+    &-main {
+        background-color: $color-white;
+        padding: 50px 0;
+
+        .partner-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .partner-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .partner-item {
+                width: 25%;
+                text-align: center;
+                margin-bottom: 30px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

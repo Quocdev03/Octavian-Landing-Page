@@ -1,0 +1,15 @@
+.hero {
+    position: relative;
+
+    &-image {
+        position: absolute;
+        right: 0;
+    }
+
+    &-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+}

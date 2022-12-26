@@ -1,0 +1,18 @@
+.header {
+    transition: all 0.2s linear;
+
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+        transition: all 0.2s linear;
+    }
+
+    @include maxw(1023px) {
+        &-main {
+            padding: 20px 0;
+            transition: all 0.2s linear;
+        }
+    }
+}

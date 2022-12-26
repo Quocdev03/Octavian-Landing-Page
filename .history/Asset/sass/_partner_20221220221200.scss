@@ -1,0 +1,23 @@
+.partner {
+    margin-bottom: 150px;
+    display: block;
+
+    &-main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 90px 0;
+    }
+
+    &-item {
+        padding: 0 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: opacity 0.2s ease-in-out;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}

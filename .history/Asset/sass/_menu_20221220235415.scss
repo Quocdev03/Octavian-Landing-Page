@@ -1,0 +1,18 @@
+.menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: white;
+    z-index: 999999;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    &-list {
+        height: 100%;
+    }
+
+    &-toggle {
+        cursor: pointer;
+    }
+}

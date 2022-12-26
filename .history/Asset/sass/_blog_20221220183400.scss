@@ -1,0 +1,20 @@
+.blog {
+    padding: 150px 0;
+
+    &-header {
+        max-width: 560px;
+        margin: 0 auto 100px;
+        text-align: center;
+    }
+
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+    }
+
+    &-image {
+
+        margin-bottom: 40px;
+    }
+}

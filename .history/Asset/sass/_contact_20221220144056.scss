@@ -1,0 +1,58 @@
+.contact {
+    padding: 150px 0;
+    background: url(../images/contact-bg.png) no-repeat center /cover;
+
+    &-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    &-header {
+        max-width: 570px;
+        margin: 0 auto 100px;
+        text-align: center;
+    }
+
+    &-heading,
+    &-desc {
+        color: #fff;
+    }
+
+    &-heading {
+        font-weight: 400;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    &-field {
+        display: block;
+        padding: 20px 30px;
+        width: 100%;
+        border: 1px solid rgba(white, 0.5);
+        margin-bottom: 30px;
+        border-radius: 4px;
+        background-color: transparent;
+        color: white;
+        transition: all .7s linear;
+
+        &::-webkit-input-placeholder {
+            color: white;
+        }
+
+        &::-moz-input-placeholder {
+            color: white;
+        }
+
+        :focus {
+            border-color: white;
+        }
+    }
+
+    &-area {
+        line-height: 1.55;
+        resize: none;
+        min-height: 100px;
+    }
+}

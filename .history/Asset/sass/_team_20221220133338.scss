@@ -1,0 +1,18 @@
+.team {
+    &-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-content {
+        max-width: 370px;
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    &-images {
+        width: 100%;
+        max-width: 670px;
+    }
+}

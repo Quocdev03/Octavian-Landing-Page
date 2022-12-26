@@ -1,0 +1,33 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+    transition: all 0.2s linear;
+
+    &-phone {
+        color: $gray;
+        font-weight: 300;
+        transition: all 0.2s linear;
+
+        span {
+            margin-left: 15px;
+            font-weight: 600;
+            transition: all 0.2s linear;
+        }
+    }
+
+    &-search,
+    &-toggle {
+        cursor: pointer;
+    }
+
+    @include maxw(1023px) {
+        gap: 0 25px;
+        transition: all 0.2s linear;
+
+        &-phone {
+            display: none;
+            transition: all 0.2s linear;
+        }
+    }
+}

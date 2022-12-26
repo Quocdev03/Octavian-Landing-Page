@@ -1,0 +1,12 @@
+.menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: $white;
+
+    &-toggle {
+        cursor: pointer;
+    }
+}

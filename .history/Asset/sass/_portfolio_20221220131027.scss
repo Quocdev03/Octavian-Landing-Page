@@ -1,0 +1,29 @@
+.portfolio {
+    margin-bottom: 200px;
+
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 90px;
+    }
+
+    &-image {
+        margin-bottom: 40px;
+    }
+
+    &-title {
+        font-size: 22px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    &-category {
+        font-size: 14px;
+    }
+
+    &-column {
+        display: flex;
+        flex-direction: column;
+        gap: 85px 0;
+    }
+}

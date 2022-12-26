@@ -1,0 +1,45 @@
+.menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: white;
+    z-index: 999999;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    &-list {
+        height: 100%;
+        padding: 100px 20px 20px;
+    }
+
+    &-item {
+        margin-bottom: 20px;
+    }
+
+    &-link {
+        display: block;
+        padding: 15px;
+        text-transform: capitalize;
+        color: $gray;
+        border-radius: 6px;
+        transition: all 0.4s linear;
+
+        &:hover {
+            color: white;
+            background-color: $blue-color;
+        }
+    }
+
+    &-close {
+        cursor: pointer;
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    &-toggle {
+        cursor: pointer;
+    }
+}

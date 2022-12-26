@@ -1,0 +1,33 @@
+.team {
+    padding: 150px 0;
+    background-color: $gray-lighter;
+
+    &-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-content {
+        max-width: 370px;
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    &-images {
+        width: 100%;
+        max-width: 670px;
+    }
+
+    &-heading {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 1.55;
+        margin-bottom: 50px;
+    }
+
+    &-desc {
+        font-size: 10px;
+        line-height: lineH(32, 18);
+    }
+}
